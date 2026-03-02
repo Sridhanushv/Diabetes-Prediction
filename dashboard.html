@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-5 text-center">
+	<h2>Welcome, {{name}}</h2>
+	<p>Explore the features of the diabetes detection app.</p>
+	<div class="mt-4">
+		<!--Logout Button -->
+		<form action="/logout" method="post" style="display: inline;">
+			<button type="Submit">Logout</button>
+		</form>
+		<!-- Start Detection Button -->
+		<form action="/upload" method="get" style="display: inline;">
+			<button type="Submit">start Diabetes Detection</button>
+		</form>
+	</div>
+</div>
+{% endblock %}

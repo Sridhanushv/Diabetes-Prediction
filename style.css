@@ -1,0 +1,50 @@
+/* background */
+body{
+	background: url('../images/bg.jpg') no-repeat center fixed;
+	background-size: cover;
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/* Header */
+header{
+	background-color: rgba(0,0,0,0.7);	
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+/*footer*/
+footer{
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	text-align: center;
+	padding: 0.5em 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+/*centered content section*/
+section {
+	margin: 3em auto;
+	text-align: center;
+	max-width: 800px;
+	padding: 2em;
+	border-radius: 8px;
+	box-shadow: 0.4px 8px rgba(0,0,0,0.1);
+}
+/*typogarphy */
+h1{
+	color: white,#556B2F;
+}
+h2,h6{
+	color: black; /*denim blue*/
+}
+p{
+	font-size: 2.5em;
+	color: black; /*light blue*/
+}
+label
+{
+	color: #000080;
+}
